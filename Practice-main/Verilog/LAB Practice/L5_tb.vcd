@@ -1,0 +1,41 @@
+$date
+	Sat Dec 10 15:57:25 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module L5_tb $end
+$var wire 4 ! g [3:0] $end
+$var parameter 32 " n $end
+$var reg 4 # b [3:0] $end
+$scope module f2 $end
+$var wire 4 $ b [3:0] $end
+$var parameter 32 % n $end
+$var reg 4 & g [3:0] $end
+$var integer 32 ' i [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b100 %
+b100 "
+$end
+#0
+$dumpvars
+b11111111111111111111111111111111 '
+b100 &
+b111 $
+b111 #
+b100 !
+$end
+#40
+b111 !
+b111 &
+b11111111111111111111111111111111 '
+b101 #
+b101 $
+#80
